@@ -1,0 +1,246 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.sidebar{
+    display: inline-block;
+    width:20%;
+    height:100%;
+    border-width:2px;
+    border-style: solid;
+    border-color: lightgrey;
+    background-color:lightgray;
+}
+.sidebar h1{
+    text-align: center;
+    padding: 15px;
+    cursor:pointer;
+}
+.sidebar-sub{
+    padding: 15px;
+    text-align: center;
+    cursor:pointer;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar-footer{
+    margin-top: 150%;
+    margin-bottom: 12%;
+}
+.sidebar-sub:hover{
+    background-color: aqua;
+}
+.full-container{
+    display: flex;
+    flex-direction:row;
+}
+.applicant-box{
+    display: flex;
+    flex-direction: column;
+}
+.search-box{
+    border-width: 2px;
+    border-color: lightgrey;
+    border-style: solid;
+    padding:20px;
+    margin-left:30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+}
+#search{
+    width: 1000px;
+    height:25px;
+    font-size: 20px;
+    text-align: center;
+    padding:5px;
+    margin-right: 180px;
+}
+.newjob{
+    display:inline-block;
+    font-size: 20px;
+    padding: 5px;
+    border-color:lightblue;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+.applicant-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    height:785px;
+    width:1450px;
+    margin-left: 30px;
+}
+.latest-apply{
+    display:inline-block;
+    height: 100%;
+    width:35%;
+    border-color: lightgray;
+    border-width: 2px;
+    border-style: solid;
+    background-color: lightgray;
+}
+.apply-details{
+    margin-left: 55px;
+    display:inline-block;
+    height: 100%;
+    width: 65%;
+    border-color:lightgray;
+    border-width: 2px;
+    border-style: solid;
+    background-color: lightgray;
+}
+.lat-head{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lat-card{
+    width: 100%;
+}
+.lat-card-head{
+    padding: 15px;
+    padding-top:18px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lat-card-body{
+    padding: 15px;
+    padding-top: 25px;
+}
+.lat-card:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+.app-details-head{
+    padding:35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fa-solid{
+    cursor: pointer;
+}
+/* Applicant Details Body Styles */
+.app-details-body {
+    background-color:lightgray; /* White background for clarity */ /* Rounded corners */
+    padding: 35px; /* Inner spacing */ 
+    padding-top:20px;
+    font-size: 16;
+}
+
+/* Applicant Info Styles */
+.applicant-info {
+    margin-bottom: 25px; /* Space between applicant info sections */
+}
+
+.applicant-info h2 {
+    color: #2980b9; /* Color for applicant name */
+    font-size: 1.8em; /* Larger font size for emphasis */
+    margin-bottom: 10px; /* Space below name */
+}
+
+.applicant-info p {
+    font-size: 1em; /* Standard font size for details */
+    line-height: 1.6; /* Better readability with line height */
+    margin-bottom: 8px; /* Space between paragraphs */
+}
+
+/* Notes and Interview Schedule Styles */
+.applicant-notes,
+.applicant-interview {
+    background-color: #f9f9f9; /* Light gray background for notes/interview sections */
+    border-left: 4px solid #2980b9; /* Left border for emphasis */
+    padding-left: 15px; /* Space from the left border */
+    margin-bottom: 20px; /* Space below each section */
+}
+
+.applicant-interview h3,p {
+    color: #34495e; /* Darker color for section headings */
+    margin-top: 5px; /* Remove default margin on top of headings */
+}
+
+/* Recruiter Actions Styles */
+.recruiter-actions {
+    background-color: #f9f9f9; /* Light gray background for actions */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Inner spacing */
+    margin-bottom: 20px; /* Space below this section */
+}
+
+.recruiter-actions h3 {
+    color: #2980b9; /* Color for section heading */
+    font-size: 1.5em; /* Slightly larger font size for emphasis */
+    margin-bottom: 15px; /* Space below heading */
+}
+
+/* Action Button Styles */
+.action-button {
+    background-color: #27ae60; /* Green color for action buttons */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 10px; /* Space between buttons */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.action-button:hover {
+    background-color: #219653; /* Darker shade on hover */
+}
+
+/* Responsive Design for Buttons */
+@media (max-width: 600px) {
+    .action-button {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 10px; /* Space below buttons on mobile */
+        margin-right: 0; /* Remove right margin on mobile */
+    }
+}
+
+/* Button Styles */
+.contact-button {
+    background-color: #3498db; /* Button color */
+    color: white;
+    padding: 10px 15px;
+    padding-top: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.contact-button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}
+/* Download Resume Button Styles */
+.download-button {
+    background-color: #3498db; /* Blue color for download button */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.download-button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}
+

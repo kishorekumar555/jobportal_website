@@ -1,0 +1,209 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.logo{
+    margin:10px;
+    margin-left:30px;
+}
+nav{
+    height:100px;
+}
+h1,ul,li{
+    display:inline;
+    padding:10px;
+}
+ul{
+    margin-left: 100px;
+}
+h1{
+    margin-left:200px;
+    margin-right:120px;
+    font-size: 40px;
+}
+li{
+    margin-left: 30px;
+    padding-bottom:40px;
+    font-size:20px;
+}
+.seeker-container{
+    margin-top:250px;
+    margin-left:210px;
+    width:35%;
+    display:inline-block;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding-left:130px;
+}
+.seeker-container p{
+    font-size:90px;
+    margin-bottom: 50px;
+    padding-bottom:100px;
+}
+.seeker-container .seeker-head{
+    font-size:30px;
+    margin-left:150px;
+    padding-bottom:10px;
+    margin-top:20px;
+}
+.seeker-container input{
+    width: 350px;
+    height:50px;
+    font-size: 25px;
+    padding-left:40px;
+    margin-bottom:15px;
+}
+.seeker-container button{
+    width:150px;
+    height: 52px;
+    font-size: 25px;
+    cursor:pointer;
+    margin-bottom:15px;
+}
+
+.poster-container{
+    margin-top:250px;
+    margin-left:30px;
+    width:40%;
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding-left:40px;
+    text-align: center;
+}
+.poster-container p{
+    font-size:90px;
+    margin-bottom: 50px;
+}
+.poster-container .poster-head{
+    margin-top: 27px;
+    font-size:30px;
+}
+.poster-container input{
+    width: 350px;
+    height:50px;
+    font-size: 25px;
+    padding-left:40px;
+    margin-bottom:15px;
+}
+.poster-container button{
+    width:150px;
+    height: 52px;
+    font-size: 25px;
+    cursor:pointer;
+    margin-bottom:15px;
+}
+.resume{
+    background-color: rgba(31, 43, 123, 0.8);
+    margin-top:80px;
+    text-align: center;
+    color:white;
+}
+.resume p{
+    margin-left:440px;
+    font-size: 70px;
+    width:50%;
+}
+.resume button{
+    margin-top: 80px;
+    width:200px;
+    height:50px;
+    font-size: 15px;
+}
+.apply-container{
+    text-align: center;
+}
+.apply-container p{
+     margin-top:50px;
+}
+#apply-head{
+    margin-top: 70px;
+    font-size: 16px;
+}
+#how-apply{
+    margin-top: 50px;
+    font-size:50px;
+}
+.apply-process{
+    margin-top:120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.step-1{
+    width:150px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 50px;
+}
+.step-1 h3{
+    font-size: 22px;
+}
+.step-1 i{
+    font-size: 35px;
+    margin-top: 20px;
+    padding:10px;
+}
+.step-2{
+    width:150px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 50px;
+}
+.step-2 h3{
+    font-size: 22px;
+}
+.step-2 i{
+    font-size: 35px;
+    margin-top: 20px;
+    padding:10px;
+}
+.step-3{
+    width:150px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 50px;
+}
+.step-3 h3{
+    font-size: 22px;
+}
+.step-3 i{
+    font-size: 35px;
+    margin-top: 20px;
+    padding:10px;
+}
+.footer{
+    text-align: center;
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+}
+.footer h3{
+    margin-top: 30px;
+    font-size: 22px;
+    padding:30px;
+}
+.footer p{
+    font-size: 20px;
+}
+.footer input{
+   margin-top: 17px;
+   width: 500px;
+   height: 45px;
+   font-size: 25px;
+   text-align: center;
+   padding:5px;
+}
+.footer button{
+    height:58px;
+    font-size:16px;
+    margin-bottom: 30px;
+    padding-top:4px;
+    width: 130px;
+}    
